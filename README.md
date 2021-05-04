@@ -29,7 +29,7 @@ How it works.
 1. without parameter country you will get a list of all countries in the world. 
     ![request without parameter](/output/countries.jpg)
 2. with a paramter you will get a list of cities in that given country.
-2.  ![request with parameter](/output/country.jpg)
+   ![request with parameter](/output/country.jpg)
 
 ### Questions
 1. Is the data upto date? *Yes, cities take time to form. If a city is missing please let me know so that I can update the dataset.*
