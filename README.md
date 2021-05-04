@@ -2,9 +2,9 @@
 
 ## How to create a free city world api
 
-When working with microservice you will find yourself with various apps that need users to select a country or a city.
+When working with microservices, you will find yourself with various apps that need users to select a country or a city.
 
-There are a lot of providers for such services out there, this however is an in-house solution you can spin in a couple of seconds.
+There are a lot of providers for such services out there, this however is an in-house solution that you can spin in a couple of seconds.
 
 The dataset is based on [Juanmah's](https://www.kaggle.com/juanmah/world-cities) work, but slightly striped.
 
