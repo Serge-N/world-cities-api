@@ -19,7 +19,7 @@ How it works.
 1. clone repository.
 1. create a a function app.
 1. pulbish to function to the above.
-   1. When publishing make sure the option run from a package is false or 0. This makes wwwroot folder in Kudu readonly as the [docs] (https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package) state.
+   1. When publishing make sure the option run from a package is false or 0. This makes wwwroot folder in Kudu readonly as the [docs](https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package) state.
    1. Create a folder, "Data" , using Kudu in the wwwwroot folder of the function.
    1. Upload your csv file to the Data folder in Kudu.
 1. test your function.
@@ -37,5 +37,6 @@ How it works.
 3. How is the performance? *It is just fine, check the response times in the pictures above.*
 4. I want a faster response, can that be done? *Yes, strip the file and remove fields that you don't need.*
 5. Kudu cannot gives me a ERROR 409 Conflict ! *Set WEBSITE_RUN_FROM_PACKAGE to 0 in your function app configuration in Azure. This app service feature makes the wwwroot folder readonly as referenced above.*
+6. Well my local solution is not working ! *Azure and a local development enviromrmnt have diffirent file structures, for debugging puposes change the root directory line :   var rootDirectory = Path.GetFullPath(Path.Combine(binDirectory, "..","..","..",".."))*;
 
 
