@@ -37,6 +37,4 @@ How it works.
 3. How is the performance? *It is just fine, check the response times in the pictures above.*
 4. I want a faster response, can that be done? *Yes, strip the file and remove fields that you don't need.*
 5. Kudu cannot gives me a ERROR 409 Conflict ! *Set WEBSITE_RUN_FROM_PACKAGE to 0 in your function app configuration in Azure. This app service feature makes the wwwroot folder readonly as referenced above.*
-6. Well my local solution is not working ! *Azure and a local development enviromrmnt have diffirent file structures, for debugging puposes change the root directory line :   var rootDirectory = Path.GetFullPath(Path.Combine(binDirectory, "..","..","..",".."))*;
-
-
+6. Well my local solution is not working ! *Azure and a local development enviromrmnt have diffirent file structures, for debugging puposes change the root directory line to :   var rootDirectory = Path.GetFullPath(Path.Combine(binDirectory, "..","..","..",".."))*;
