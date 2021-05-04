@@ -1,4 +1,4 @@
-# world-cities-api
+# World Cities REST API
 
 ## How to create a free city world api
 
@@ -8,7 +8,7 @@ There are a lot of providers for such services out there, this however is an in-
 
 The dataset is based on [Juanmah's](https://www.kaggle.com/juanmah/world-cities) work, but slightly striped.
 
-How it works.
+### How it works.
 * create an azure function app in Azure.
 * read the csv.
 * respond with the requested data.
