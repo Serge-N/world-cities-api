@@ -17,7 +17,7 @@ The dataset is based on [Juanmah's](https://www.kaggle.com/juanmah/world-cities)
 ### Let get started: 
 
 1. clone repository.
-1. create a a function app.
+1. create a dotnet function app in azure.
 1. pulbish to function to the above.
    1. When publishing make sure the option run from a package is false or 0. This makes wwwroot folder in Kudu readonly as the [docs](https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package) state.
    1. Create a folder, "Data" , using Kudu in the wwwwroot folder of the function.
