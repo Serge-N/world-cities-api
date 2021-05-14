@@ -18,8 +18,8 @@ The dataset is based on [Juanmah's](https://www.kaggle.com/juanmah/world-cities)
 
 1. clone repository.
 1. create a dotnet (3.1 we are still waiting for 6) Function App in azure.
-1. pulbish to function to the above.
-   1. When publishing make sure the option run from a package is false or 0. This makes wwwroot folder in Kudu readonly as the [docs](https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package) state.
+1. pulbish to function to the above function.
+   1. When publishing make sure the option "run from a package" is false or 0. This makes wwwroot folder in Kudu readonly as the [docs](https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package) state.
    1. Create a folder, "Data" , using Kudu in the wwwwroot folder of the function.
    1. Upload your csv file to the Data folder in Kudu.
 1. test your function.
