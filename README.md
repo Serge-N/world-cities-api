@@ -14,7 +14,7 @@ The dataset is based on [Juanmah's](https://www.kaggle.com/juanmah/world-cities)
 * respond with the requested data.
 
 
-### Let get started: 
+### Lets get started: 
 
 1. clone repository.
 1. create a dotnet (3.1 we are still waiting for 6) Function App in azure.
